@@ -2,6 +2,11 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
-  
-
+  if num % 3 && 5 == 0 
+    return "fizzbuzz"
+  elsif num % 3 == 0 
+    return "fizz"
+  else num % 5 == 0 
+    return "buzz"
+  end
 end
